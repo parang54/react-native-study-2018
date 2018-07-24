@@ -1,8 +1,8 @@
-# react-native-2018
+# react-native-study-2018
 
 
 
-### 개요
+## 개요
 
 BusanDev 스터디모임에서 React Native 를 함께 스터디하는 모임입니다.
 
@@ -16,7 +16,7 @@ BusanDev 스터디모임에서 React Native 를 함께 스터디하는 모임입
 
 
 
-### 스터디 진행
+## 스터디 진행
 
 ##### 1차
 
