@@ -2,11 +2,52 @@
 
  
 
+todo
+
+- 이론 간단히
+- 실행예재 생성 및 추가(아이콘등)
+
+
+
 #### 모바일 앱 개발 환경의 이해
 
->s
+>모바일 앱 개발에 있어 주로 사용되는 두 가지 접근 방법이다. 하나는 각 플랫폼(iOS, Andorid) 대상의
 >
->sss
+>네이티브 앱을 개발하는 방법이며, 다른 하나는 웹 기술(Html, CSS, Javascript)을 사용해 웹뷰(WebView)
+>
+>로 감싸는 하이브리드 앱 개발방식이다.
+
+##### 네이티브 앱 개발
+
+- IOS
+
+- Android
+
+  ​
+
+##### 하이브리드 앱 개발
+
+``` java
+//Android
+public class MainActivity extends Activity {
+    WebView myWebView;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        startActivity(new Intent(this,IntroActivity.class));
+
+        //WebView
+        myWebView = (WebView) findViewById(R.id.webView1);
+        myWebView.getSettings().setJavaScriptEnabled(true); // 자바스크립트를 사용 설정
+        myWebView.loadUrl("http://google.com");             // 웹사이트 URL
+        myWebView.setWebViewClient(new myWebViewClient());
+    }
+}
+```
+
+
 
 
 
