@@ -5,7 +5,10 @@
 todo
 
 - 이론 간단히
+
 - 실행예재 생성 및 추가(아이콘등)
+
+  ​
 
 
 
@@ -17,11 +20,13 @@ todo
 >
 >로 감싸는 하이브리드 앱 개발방식이다.
 
+
+
 ##### 네이티브 앱 개발
 
-- IOS
+- IOS : https://developer.apple.com/kr/
 
-- Android
+- Android: https://developer.android.com/
 
   ​
 
@@ -49,31 +54,43 @@ public class MainActivity extends Activity {
 
 
 
-
-
 ##### 어도비 폰갭
+
+> 폰갭은 오픈소스인 아파치 코도바(Apache Cordova) 라이브러리를 기반으로 구축되었으며, HTML, CSS 자바스크립트로 개발한 웹 어플리케이션을 네이티브 컨테이너 안에 패키징하는 명령행 인터페이스를 제공한다.
+>
+> https://cordova.apache.org/docs/ko/latest/guide/overview/
+
+
 
 ##### 아이오닉
 
+> 폰갭과 마찬기지로 코도바를 근간으로 구글의 앵귤러(AngularJS)를 사용하는 하이브리드 앱 프래임워크이다.
+>
+> 아이오닉은 아이오닉 프레임워크, 아이오닉 CLI라는 2개의 큰 덩어리로 구성된다.
+>
+> https://ionicframework.com/
+>
+> https://ionicframework.com/docs/cli/
+
+
+
 ##### 네이티브스크립트
+
+> 텔리릭(Telerik)의 네이티브스크립트(NativeScript)는 리액트 네이티브와 비슷한 방식으로 iOS와 Android 네이티브 앱 개발을 지원하는 오픈소스 프레임워크이다.
+>
+> https://www.nativescript.org/
+
+
 
 ##### 리액트 네이티브
 
-
-
-#### 리액트 네이티브 툴의 이해
-
-##### 엑스코드
-
-##### 구글크롬
-
-홈브루
-
-노드JS와 npm
-
-왓치맨
-
-리액트 네이티브 CLI
+> React Nativeㄹ
+>
+> Build native mobile apps using JavaScript and React
+>
+> 리액트 네이티브는 페이스북이 2015년 3월에 공개한 오픈소스 프로젝트이며, 개발자로 하여금 고품질의 iOS와 Android 용 네이티브 앱을 친숙한 웹 기술을 이용해 개발할 수 있도록 하는 하는 목적을 가진다.
+>
+> https://facebook.github.io/react-native/
 
 
 
