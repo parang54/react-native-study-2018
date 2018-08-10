@@ -2,16 +2,6 @@
 
  
 
-todo
-
-- 이론 간단히
-
-- 실행예재 생성 및 추가(아이콘등)
-
-  ​
-
-
-
 #### 모바일 앱 개발 환경의 이해
 
 >모바일 앱 개발에 있어 주로 사용되는 두 가지 접근 방법이다. 하나는 각 플랫폼(iOS, Andorid) 대상의
@@ -84,7 +74,7 @@ public class MainActivity extends Activity {
 
 ##### 리액트 네이티브
 
-> React Nativeㄹ
+> React Native
 >
 > Build native mobile apps using JavaScript and React
 >
@@ -96,19 +86,87 @@ public class MainActivity extends Activity {
 
 #### 툴설치
 
-엑스코드 설치
+##### 엑스코드 설치
 
-홈브루 설치
+##### 홈브루 설치
 
-노드와 npm 설치
+>홈브루(Homebrew): 맥OS용 패키지 관리자
+>
+>Homebrew는 Apple에서 제공하지 않는 [유용한 패키지 관리자](https://formulae.brew.sh/formula/)를 설치한다.
+>
+>https://brew.sh/
 
-왓치맨 설치
+```shell
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
-리액트 네이티브 CLI 설치
+
+
+##### 노드와 npm 설치
+
+> 노드(JSNode.js): 서버 측 자바스크립트 런타임 환경
+>
+> npm: 노드의 패키지 관리자
+>
+> 리액트 네이티브 문서에서는 brew를 사용한 설치를 권장하고 있다.
+
+```shell
+//설치
+$ brew install node
+
+//버전확인
+$ node -v
+$ npm -v
+```
+
+
+
+##### 왓치맨 설치
+
+> 왓치맨(Watchman): 페이스북이 만든 오픈소스 툴
+>
+> 리액트 네이티브 패키저는 왓치맨을 사용해 여러 디렉터리 트리에 걸쳐 변경된 소스 코드가 있는지를 반복적으로 감시하며, 변경사항이 탐지되면 자동으로 자바스크립트 번들을 다시 빌드한다.
+
+```shell
+$ brew install watchman
+```
+
+
+
+
+
+##### 리액트 네이티브 CLI 설치
+
+> 리액트 네이티브 CLI(명령행 인터페이스)는 소형 노드 앱의 일종이며 , 새 리액트 네잍티브 앱을 만들 때 사용되는 init 명령어를 제공한다. CLI를 실행하면 iOS와 Android용으로 빌드할 때 필요한 파일과 함께 표준적인 리액트 네이티브 앱을 생성한다.
+
+```shell
+$ npm install -g react-native-cli
+
+//권한문제 발생시(Error: EACCES: permission denied...)
+$ sudu npm install -g react-native-cli
+```
+
+
 
 
 
 #### 'Hello World' 리액트 네이티브 앱
+
+```shell
+//작업공간 이동
+$ cd ~/Documents
+
+//HelloWorld 프로젝트 생성
+$ react-native init HelloWorld
+
+//Xcode 실행
+$ cd HelloWorldls
+$ .open
+
+
+//iOS 시뮬레이터 실행
+$ react-native run-ios
+```
 
 
 
