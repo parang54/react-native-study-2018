@@ -2,7 +2,7 @@
 
  
 
-#### 모바일 앱 개발 환경의 이해
+### 모바일 앱 개발 환경의 이해
 
 >모바일 앱 개발에 있어 주로 사용되는 두 가지 접근 방법이다. 하나는 각 플랫폼(iOS, Andorid) 대상의
 >
@@ -84,15 +84,17 @@ public class MainActivity extends Activity {
 
 
 
-#### 툴설치
+#### 개발 환경 툴설치
 
 ##### 엑스코드 설치
+
+
 
 ##### 홈브루 설치
 
 >홈브루(Homebrew): 맥OS용 패키지 관리자
 >
->Homebrew는 Apple에서 제공하지 않는 [유용한 패키지 관리자](https://formulae.brew.sh/formula/)를 설치한다.
+>Apple에서 제공하지 않는 [유용한 패키지 관리자](https://formulae.brew.sh/formula/)를 설치한다.
 >
 >https://brew.sh/
 
@@ -159,14 +161,12 @@ $ cd ~/Documents
 //HelloWorld 프로젝트 생성
 $ react-native init HelloWorld
 
-//Xcode 실행
-$ cd HelloWorldls
-$ .open
-
 
 //iOS 시뮬레이터 실행
 $ react-native run-ios
 ```
+
+
 
 
 
